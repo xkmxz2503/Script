@@ -21,7 +21,7 @@
       "title": "[PaperMC] Minecraft 1.21.1 快速开服",
       "category": "mc-paper",
       "runtime": "Java 17+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "250MB",
       "remark": "包含基础插件，萌新快速开服！低配机器专属！",
       "targetLink": "https://cloud.alongw.cn/f/DzvHK/Paper-1.21.1-ZH.zip",
@@ -256,7 +256,7 @@
       "title": "[PaperMC] Minecraft 1.21.10 快速开服",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "仅包含 Paper 版本",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.10/builds/84/downloads/paper-1.21.10-84.jar",
@@ -285,7 +285,7 @@
       "title": "[PaperMC] Minecraft 1.21.8 快速开服",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "仅包含 Paper 版本",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.8/builds/60/downloads/paper-1.21.8-60.jar",
@@ -314,7 +314,7 @@
       "title": "[PaperMC] Minecraft 1.21.1 快速开服",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "仅包含 Paper 版本",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/133/downloads/paper-1.21.1-133.jar",
@@ -586,14 +586,43 @@
       "language": "en_us",
       "gameType": "Minecraft",
       "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "description": "Minecraft 26.1.2 Paper Quick Server Setup, High Performance, Low Resource Usage, Plugin Support, No Mod Support",
+      "title": "[PaperMC] Minecraft 26.1.2",
+      "category": "mc-paper",
+      "runtime": "Java 25+",
+      "hardware": "RAM 4G+",
+      "size": "100MB",
+      "remark": "Minecraft Paper",
+      "targetLink": "https://fill-data.papermc.io/v1/objects/6a03b365d66c68ad0d4fe843c51183d7cdbfb20fa3d11b2423984648f4bc9e57/paper-26.1.2-60.jar",
+      "author": "papermc.io",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/paper",
+        "startCommand": "java -Xms4096M -Xmx4096M -jar paper-26.1.2-60.jar nogui",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "ALL",
+      "language": "en_us",
+      "gameType": "Minecraft",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
       "description": "Minecraft 1.21.11 Paper Quick Server Setup, High Performance, Low Resource Usage, Plugin Support, No Mod Support",
       "title": "[PaperMC] Minecraft 1.21.11",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "Minecraft Paper",
-      "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.11/builds/39/downloads/paper-1.21.11-39.jar",
+      "targetLink": "https://fill-data.papermc.io/v1/objects/6c099540fccd27e10750d1adcb382f1552fb5aa2816aeaf2cc1efb23ddd9e3df/paper-1.21.11-131.jar",
       "author": "papermc.io",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -603,7 +632,7 @@
       },
       "setupInfo": {
         "type": "minecraft/java/paper",
-        "startCommand": "java -Xms4096M -Xmx4096M -jar paper-1.21.11-39.jar nogui",
+        "startCommand": "java -Xms4096M -Xmx4096M -jar paper-1.21.11-131.jar nogui",
         "stopCommand": "stop",
         "updateCommand": "",
         "ie": "utf-8",
@@ -619,7 +648,7 @@
       "title": "[PaperMC] Minecraft 1.21.10",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "Minecraft Paper",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.10/builds/117/downloads/paper-1.21.10-117.jar",
@@ -648,7 +677,7 @@
       "title": "[PaperMC] Minecraft 1.21.8",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "Minecraft Paper",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.8/builds/60/downloads/paper-1.21.8-60.jar",
@@ -677,7 +706,7 @@
       "title": "[PaperMC] Minecraft 1.21.4",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "50MB",
       "remark": "Minecraft Paper",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.4/builds/232/downloads/paper-1.21.4-232.jar",
@@ -706,7 +735,7 @@
       "title": "[PaperMC] Minecraft 1.21.1",
       "category": "mc-paper",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "100MB",
       "remark": "Minecraft Paper",
       "targetLink": "https://api.papermc.io/v2/projects/paper/versions/1.21.1/builds/133/downloads/paper-1.21.1-133.jar",
@@ -731,14 +760,43 @@
       "language": "en_us",
       "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
       "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 Purpur Quick Server Setup, High Performance, Low Resource Usage, Plugin Support, No Mod Support",
+      "title": "[PurpurMC] Minecraft 26.1.2",
+      "category": "mc-purpur",
+      "runtime": "Java 25+",
+      "hardware": "RAM 4G+",
+      "size": "55MB",
+      "remark": "Minecraft Purpur",
+      "targetLink": "https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/PurpurMC/purpur-26.1.2-2585.jar",
+      "author": "purpurmc.org",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/purpur",
+        "startCommand": "java -Xms4096M -Xmx4096M -jar purpur-26.1.2-2585.jar nogui",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "ALL",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "gameType": "Minecraft",
       "description": "Minecraft 1.21.11 Purpur Quick Server Setup, High Performance, Low Resource Usage, Plugin Support, No Mod Support",
       "title": "[PurpurMC] Minecraft 1.21.11",
       "category": "mc-purpur",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "55MB",
       "remark": "Minecraft Purpur",
-      "targetLink": "https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/PurpurMC/purpur-1.21.11-2538.jar",
+      "targetLink": "https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/PurpurMC/purpur-1.21.11-2568.jar",
       "author": "purpurmc.org",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -748,7 +806,7 @@
       },
       "setupInfo": {
         "type": "minecraft/java/purpur",
-        "startCommand": "java -Xms4096M -Xmx4096M -jar purpur-1.21.11-2538.jar nogui",
+        "startCommand": "java -Xms4096M -Xmx4096M -jar purpur-1.21.11-2568.jar nogui",
         "stopCommand": "stop",
         "updateCommand": "",
         "ie": "utf-8",
@@ -764,7 +822,7 @@
       "title": "[PurpurMC] Minecraft 1.21.10",
       "category": "mc-purpur",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "55MB",
       "remark": "Minecraft Purpur",
       "targetLink": "https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/PurpurMC/purpur-1.21.10-2535.jar",
@@ -793,7 +851,7 @@
       "title": "[PurpurMC] Minecraft 1.21.8",
       "category": "mc-purpur",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "55MB",
       "remark": "Minecraft Purpur",
       "targetLink": "https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/PurpurMC/purpur-1.21.8-2497.jar",
@@ -822,7 +880,7 @@
       "title": "[PurpurMC] Minecraft 1.21.4",
       "category": "mc-purpur",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "50MB",
       "remark": "Only Purpur included",
       "targetLink": "https://github.com/SkyKingPX/MCSManagerServerSoftware/releases/download/PurpurMC/purpur-1.21.4-2416.jar",
@@ -847,6 +905,64 @@
       "language": "en_us",
       "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/mc-forge.webp",
       "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 Forge Quick Server Setup, Mod Support for Linux",
+      "title": "[Forge] Minecraft 26.1.2",
+      "category": "mc-forge",
+      "runtime": "Java 25+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft Forge",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.0.8/forge-26.1.2-64.0.8-installer.jar",
+      "author": "minecraftforge.net",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": "sh ./run.sh",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar forge-26.1.2-64.0.8-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "Windows",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/mc-forge.webp",
+      "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 Forge Quick Server Setup, Mod Support for Windows",
+      "title": "[Forge] Minecraft 26.1.2",
+      "category": "mc-forge",
+      "runtime": "Java 25+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft Forge",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/26.1.2-64.0.8/forge-26.1.2-64.0.8-installer.jar",
+      "author": "minecraftforge.net",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/forge",
+        "startCommand": ".\\run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar forge-26.1.2-64.0.8-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "Linux",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/mc-forge.webp",
+      "gameType": "Minecraft",
       "description": "Minecraft 1.21.11 Forge Quick Server Setup, Mod Support for Linux",
       "title": "[Forge] Minecraft 1.21.11",
       "category": "mc-forge",
@@ -854,7 +970,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft Forge",
-      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.0.3/forge-1.21.11-61.0.3-installer.jar",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.1.5/forge-1.21.11-61.1.5-installer.jar",
       "author": "minecraftforge.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -866,7 +982,7 @@
         "type": "minecraft/java/forge",
         "startCommand": "sh ./run.sh",
         "stopCommand": "stop",
-        "updateCommand": "java -jar forge-1.21.11-61.0.3-installer.jar --installServer",
+        "updateCommand": "java -jar forge-1.21.11-61.1.5-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -883,7 +999,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft Forge",
-      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.0.3/forge-1.21.11-61.0.3-installer.jar",
+      "targetLink": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.21.11-61.1.5/forge-1.21.11-61.1.5-installer.jar",
       "author": "minecraftforge.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -895,7 +1011,7 @@
         "type": "minecraft/java/forge",
         "startCommand": ".\\run.bat",
         "stopCommand": "stop",
-        "updateCommand": "java -jar forge-1.21.11-61.0.3-installer.jar --installServer",
+        "updateCommand": "java -jar forge-1.21.11-61.1.5-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1137,6 +1253,64 @@
       "language": "en_us",
       "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
       "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 NeoForge Quick Server Setup, Mod Support for Linux",
+      "title": "[NeoForge] Minecraft 26.1.2",
+      "category": "mc-neoforge",
+      "runtime": "Java 25+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft NeoForge",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.42-beta/neoforge-26.1.2.42-beta-installer.jar",
+      "author": "neoforged.net",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/neoforge",
+        "startCommand": "sh ./run.sh",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar neoforge-26.1.2.42-beta-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "Windows",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 NeoForge Quick Server Setup, Mod Support for Windows",
+      "title": "[NeoForge] Minecraft 26.1.2",
+      "category": "mc-neoforge",
+      "runtime": "Java 25+",
+      "hardware": "RAM 8G+",
+      "size": "7MB",
+      "remark": "Minecraft NeoForge",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/26.1.2.42-beta/neoforge-26.1.2.42-beta-installer.jar",
+      "author": "neoforged.net",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/neoforge",
+        "startCommand": ".\\run.bat",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar neoforge-26.1.2.42-beta-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "Linux",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "gameType": "Minecraft",
       "description": "Minecraft 1.21.11 NeoForge Quick Server Setup, Mod Support for Linux",
       "title": "[NeoForge] Minecraft 1.21.11",
       "category": "mc-neoforge",
@@ -1144,7 +1318,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.8-beta/neoforge-21.11.8-beta-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.42/neoforge-21.11.42-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1156,7 +1330,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": "sh ./run.sh",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.11.8-beta-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.11.42-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1173,7 +1347,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.8-beta/neoforge-21.11.8-beta-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.11.42/neoforge-21.11.42-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1185,7 +1359,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": ".\\run.bat",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.11.8-beta-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.11.42-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1260,7 +1434,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.52/neoforge-21.8.52-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.53/neoforge-21.8.53-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1272,7 +1446,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": "sh ./run.sh",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.8.52-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.8.53-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1289,7 +1463,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.52/neoforge-21.8.52-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.8.53/neoforge-21.8.53-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1301,7 +1475,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": ".\\run.bat",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.8.52-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.8.53-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1318,7 +1492,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.155/neoforge-21.4.155-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.157/neoforge-21.4.157-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1330,7 +1504,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": "sh ./run.sh",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.4.155-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.4.157-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1347,7 +1521,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.155/neoforge-21.4.155-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.4.157/neoforge-21.4.157-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1359,7 +1533,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": ".\\run.bat",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.4.155-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.4.157-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1376,7 +1550,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.213/neoforge-21.1.213-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1388,7 +1562,7 @@
         "type": "minecraft/java/neoforge",
         "startCommand": "sh ./run.sh",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.1.213-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.1.228-installer.jar --installServer",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1405,7 +1579,7 @@
       "hardware": "RAM 8G+",
       "size": "7MB",
       "remark": "Minecraft NeoForge",
-      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.213/neoforge-21.1.213-installer.jar",
+      "targetLink": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.228/neoforge-21.1.228-installer.jar",
       "author": "neoforged.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1417,7 +1591,36 @@
         "type": "minecraft/java/neoforge",
         "startCommand": ".\\run.bat",
         "stopCommand": "stop",
-        "updateCommand": "java -jar neoforge-21.1.213-installer.jar --installServer",
+        "updateCommand": "java -jar neoforge-21.1.228-installer.jar --installServer",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "ALL",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 Fabric Quick Server Setup, Mod Support",
+      "title": "[FabricMC] Minecraft 26.1.2",
+      "category": "mc-fabric",
+      "runtime": "Java 25+",
+      "hardware": "RAM 4G+",
+      "size": "5MB",
+      "remark": "Minecraft Fabric",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
+      "author": "fabricmc.net",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/fabric",
+        "startCommand": "java -Xms4096M -Xmx4096M -jar fabric-server-launch.jar nogui",
+        "stopCommand": "stop",
+        "updateCommand": "java -jar fabric-installer-1.1.1.jar server -mcversion 26.1.2 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1431,10 +1634,10 @@
       "title": "[FabricMC] Minecraft 1.21.11",
       "category": "mc-fabric",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "5MB",
       "remark": "Minecraft Fabric",
-      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.0/fabric-installer-1.1.0.jar",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
       "author": "fabricmc.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1446,7 +1649,7 @@
         "type": "minecraft/java/fabric",
         "startCommand": "java -Xms4096M -Xmx4096M -jar fabric-server-launch.jar nogui",
         "stopCommand": "stop",
-        "updateCommand": "java -jar fabric-installer-1.1.0.jar server -mcversion 1.21.11 -downloadMinecraft -noprofile",
+        "updateCommand": "java -jar fabric-installer-1.1.1.jar server -mcversion 1.21.11 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1460,10 +1663,10 @@
       "title": "[FabricMC] Minecraft 1.21.10",
       "category": "mc-fabric",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "5MB",
       "remark": "Minecraft Fabric",
-      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.0/fabric-installer-1.1.0.jar",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
       "author": "fabricmc.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1475,7 +1678,7 @@
         "type": "minecraft/java/fabric",
         "startCommand": "java -Xms4096M -Xmx4096M -jar fabric-server-launch.jar nogui",
         "stopCommand": "stop",
-        "updateCommand": "java -jar fabric-installer-1.1.0.jar server -mcversion 1.21.10 -downloadMinecraft -noprofile",
+        "updateCommand": "java -jar fabric-installer-1.1.1.jar server -mcversion 1.21.10 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1489,10 +1692,10 @@
       "title": "[FabricMC] Minecraft 1.21.8",
       "category": "mc-fabric",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "5MB",
       "remark": "Minecraft Fabric",
-      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.0/fabric-installer-1.1.0.jar",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
       "author": "fabricmc.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1504,7 +1707,7 @@
         "type": "minecraft/java/fabric",
         "startCommand": "java -Xms4096M -Xmx4096M -jar fabric-server-launch.jar nogui",
         "stopCommand": "stop",
-        "updateCommand": "java -jar fabric-installer-1.1.0.jar server -mcversion 1.21.8 -downloadMinecraft -noprofile",
+        "updateCommand": "java -jar fabric-installer-1.1.1.jar server -mcversion 1.21.8 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1518,10 +1721,10 @@
       "title": "[FabricMC] Minecraft 1.21.4",
       "category": "mc-fabric",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "5MB",
       "remark": "Minecraft Fabric",
-      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.0/fabric-installer-1.1.0.jar",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
       "author": "fabricmc.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1533,7 +1736,7 @@
         "type": "minecraft/java/fabric",
         "startCommand": "java -Xms4096M -Xmx4096M -jar fabric-server-launch.jar nogui",
         "stopCommand": "stop",
-        "updateCommand": "java -jar fabric-installer-1.1.0.jar server -mcversion 1.21.4 -downloadMinecraft -noprofile",
+        "updateCommand": "java -jar fabric-installer-1.1.1.jar server -mcversion 1.21.4 -downloadMinecraft -noprofile",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -1547,10 +1750,10 @@
       "title": "[FabricMC] Minecraft 1.21.1",
       "category": "mc-fabric",
       "runtime": "Java 21+",
-      "hardware": "RAM 8G+",
+      "hardware": "RAM 4G+",
       "size": "5MB",
       "remark": "Minecraft Fabric",
-      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.0/fabric-installer-1.1.0.jar",
+      "targetLink": "https://maven.fabricmc.net/net/fabricmc/fabric-installer/1.1.1/fabric-installer-1.1.1.jar",
       "author": "fabricmc.net",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -1562,7 +1765,36 @@
         "type": "minecraft/java/fabric",
         "startCommand": "java -Xms4096M -Xmx4096M -jar fabric-server-launch.jar nogui",
         "stopCommand": "stop",
-        "updateCommand": "java -jar fabric-installer-1.1.0.jar server -mcversion 1.21.1 -downloadMinecraft -noprofile",
+        "updateCommand": "java -jar fabric-installer-1.1.1.jar server -mcversion 1.21.1 -downloadMinecraft -noprofile",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "ALL",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "gameType": "Minecraft",
+      "description": "Standard Vanilla Minecraft 26.1.2 Server Setup (Official) - No Mod/Plugin Support",
+      "title": "[Vanilla] Minecraft 26.1.2",
+      "category": "mc-vanilla",
+      "runtime": "Java 25+",
+      "hardware": "RAM 2G+",
+      "size": "55MB",
+      "remark": "Minecraft Java",
+      "targetLink": "https://piston-data.mojang.com/v1/objects/97ccd4c0ed3f81bbb7bfacddd1090b0c56f9bc51/server.jar",
+      "author": "Mojang Studios",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java",
+        "startCommand": "java -Xms2048M -Xmx2048M -jar server.jar nogui",
+        "stopCommand": "stop",
+        "updateCommand": "",
         "ie": "utf-8",
         "oe": "utf-8"
       }
@@ -2345,6 +2577,35 @@
       "language": "en_us",
       "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
       "gameType": "Minecraft",
+      "description": "Minecraft 26.1.2 Folia Quick Server Setup, Plugin Support",
+      "title": "[Folia] Minecraft 26.1.2",
+      "category": "mc-folia",
+      "runtime": "Java 25+",
+      "hardware": "RAM 4G+",
+      "size": "50MB",
+      "remark": "Minecraft Folia",
+      "targetLink": "https://fill-data.papermc.io/v1/objects/607afd1c3320008e1ffd2eaee6780ace4419d5f8c527b75e79f259be79ebf57b/folia-26.1.2-8.jar",
+      "author": "papermc.io",
+      "dockerOptional": {
+        "image": "eclipse-temurin:25-jdk",
+        "updateCommandImage": "eclipse-temurin:25-jdk",
+        "workingDir": "/data",
+        "changeWorkdir": true
+      },
+      "setupInfo": {
+        "type": "minecraft/java/folia",
+        "startCommand": "java -Xms4096M -Xmx4096M -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+ParallelRefProcEnabled -XX:+PerfDisableSharedMem -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1HeapRegionSize=8M -XX:G1HeapWastePercent=5 -XX:G1MaxNewSizePercent=40 -XX:G1MixedGCCountTarget=4 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1NewSizePercent=30 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15 -XX:MaxGCPauseMillis=200 -XX:MaxTenuringThreshold=1 -XX:SurvivorRatio=32 -jar folia-26.1.2-8.jar nogui",
+        "stopCommand": "stop",
+        "updateCommand": "",
+        "ie": "utf-8",
+        "oe": "utf-8"
+      }
+    },
+    {
+      "platform": "ALL",
+      "language": "en_us",
+      "image": "https://mcsmanager.oss-cn-guangzhou.aliyuncs.com/package-images/minecraft.webp",
+      "gameType": "Minecraft",
       "description": "Minecraft 1.21.11 Folia Quick Server Setup, Plugin Support",
       "title": "[Folia] Minecraft 1.21.11",
       "category": "mc-folia",
@@ -2352,7 +2613,7 @@
       "hardware": "RAM 4G+",
       "size": "50MB",
       "remark": "Minecraft Folia",
-      "targetLink": "https://fill-data.papermc.io/v1/objects/f4e9c5c374a53d17b6173cac35242c05c12217b656b6cc5dc07354cc37ec4066/folia-1.21.11-11.jar",
+      "targetLink": "https://fill-data.papermc.io/v1/objects/f52c408490a0225611e67907a3ca19f7e6da2c6bc899e715d5f46844e7103c39/folia-1.21.11-14.jar",
       "author": "papermc.io",
       "dockerOptional": {
         "image": "eclipse-temurin:21-jdk",
@@ -2362,7 +2623,7 @@
       },
       "setupInfo": {
         "type": "minecraft/java/folia",
-        "startCommand": "java -Xms4096M -Xmx4096M -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+ParallelRefProcEnabled -XX:+PerfDisableSharedMem -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1HeapRegionSize=8M -XX:G1HeapWastePercent=5 -XX:G1MaxNewSizePercent=40 -XX:G1MixedGCCountTarget=4 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1NewSizePercent=30 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15 -XX:MaxGCPauseMillis=200 -XX:MaxTenuringThreshold=1 -XX:SurvivorRatio=32 -jar folia-1.21.11-11.jar nogui",
+        "startCommand": "java -Xms4096M -Xmx4096M -XX:+AlwaysPreTouch -XX:+DisableExplicitGC -XX:+ParallelRefProcEnabled -XX:+PerfDisableSharedMem -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1HeapRegionSize=8M -XX:G1HeapWastePercent=5 -XX:G1MaxNewSizePercent=40 -XX:G1MixedGCCountTarget=4 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1NewSizePercent=30 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:G1ReservePercent=20 -XX:InitiatingHeapOccupancyPercent=15 -XX:MaxGCPauseMillis=200 -XX:MaxTenuringThreshold=1 -XX:SurvivorRatio=32 -jar folia-1.21.11-14.jar nogui",
         "stopCommand": "stop",
         "updateCommand": "",
         "ie": "utf-8",
